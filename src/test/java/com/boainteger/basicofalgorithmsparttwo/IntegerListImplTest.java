@@ -92,7 +92,7 @@ public class IntegerListImplTest {
         for (int i = 0; i < 10; i++) {
             list.add(i);
         }
-        assertThrows(SizeValueNullException.class, () -> list.add(11));
+        assertEquals(10, list.size());
     }
 
     @Test

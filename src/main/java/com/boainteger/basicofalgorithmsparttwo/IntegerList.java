@@ -36,10 +36,6 @@ public interface IntegerList {
     // элемент отсутствует в списке.
     Integer remove(int index);
 
-    void sort(Integer[] arr);
-
-    boolean binarySearch(Integer[] arr, Integer item);
-
     // Проверка на существование элемента.
     // Вернуть true/false;
     boolean contains(Integer item);
